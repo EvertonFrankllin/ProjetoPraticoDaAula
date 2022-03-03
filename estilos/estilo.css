@@ -66,8 +66,8 @@ html, body{
 .box input{
     margin-left: 35px;  
     margin-top: 20px;
-    width: 140px;
-    height: 60px;
+    width: 160px;
+    height: 40px;
     border-radius: 50px;
     color: white;
     background-color: #1d3c2c;
@@ -82,3 +82,10 @@ html, body{
     width:1500px;
     height: 1300px;
 }
+
+.copos{
+    box-sizing: border-box;
+    display: block;
+    margin-left: 500px;
+}
+
