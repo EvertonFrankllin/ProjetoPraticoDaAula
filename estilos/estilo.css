@@ -9,12 +9,12 @@ html, body{
     overflow-x: hidden;
 }
 .geral{
+    flex-wrap: wrap;
     margin: 90px auto;
-    margin-left: 100px;
+    margin-left: 30px;
     margin-top:5px;
     width: 90%;
     padding: 20px;
-    display: inline;
     box-sizing: border-box;
 }
 .geral img{
@@ -24,12 +24,13 @@ html, body{
 }
 
 .geral header{
-    margin-top:25px ;
+    margin-top: 10px ;
     margin-left: 820px;
     padding: 40px;
     display: inline-block;
 }
 .geral li a{
+    text-decoration: none;
     color:black;
 }
 .geral ul li{
@@ -38,13 +39,13 @@ html, body{
     display: inline;
 }
 .texto{
-    margin-top: 45px;
+    margin-top: 65px;
     font-size: 35px;
     margin-top: 100px;
 }
 .texto span{
     color:#1d3c2c;
-    font-size: 80px;
+    font-size: 85px;
 }
 .texto p{
     margin-left: 35px;
@@ -54,6 +55,7 @@ html, body{
 }
 .texto h1{
     margin-left: 35px;
+    font-size: 60px;
 }
 /*
 .box{
@@ -64,21 +66,22 @@ html, body{
 }
 */
 .box input{
+    cursor: pointer;
     margin-left: 35px;  
     margin-top: 20px;
-    width: 160px;
-    height: 40px;
+    width: 170px;
+    height: 50px;
     border-radius: 50px;
     color: white;
     background-color: #1d3c2c;
-    font-size: 15px;
+    font-size: 20px;
 }
 .circulo{
     position: absolute;
     background-color: #1d3c2c;
     border-radius: 50%;
-    margin-top:100px;
-    margin-left:900px;
+    margin-top:90px;
+    margin-left:1200px;
     width:1500px;
     height: 1300px;
 }
@@ -86,6 +89,23 @@ html, body{
 .copos{
     box-sizing: border-box;
     display: block;
-    margin-left: 500px;
+    margin-top: 20px;
+    margin-left: 760px;
 }
 
+.copao{
+    margin-top: 0;
+}
+.sociais{
+    position:absolute;
+    margin-left: 50px;
+    margin-top: 150px;
+    display: inline-block;
+    padding-top: 30px;
+}
+.sociais img{
+    max-width: 80px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    display: inline-block;
+}
